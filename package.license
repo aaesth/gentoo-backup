@@ -1,0 +1,8 @@
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+x11-drivers/nvidia-drivers NVIDIA-2025
+net-im/discord all-rights-reserved
+x11-misc/albert all-rights-reserved
+games-util/steam-launcher ValveSteamLicense
+media-sound/spotify Spotify
+dev-util/google-antigravity all-rights-reserved
+net-misc/anydesk AnyDesk-TOS
