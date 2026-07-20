@@ -1,0 +1,1 @@
+i was gonna put spicetify here but all my shit is outdated #payingforpremium
