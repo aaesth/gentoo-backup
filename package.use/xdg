@@ -1,0 +1,197 @@
+dev-qt/qtbase opengl egl eglfs gles2-only
+dev-qt/qtdeclarative opengl
+sys-apps/xdg-desktop-portal screencast
+# required by games-util/r2modman-bin-3.1.51::guru
+# required by r2modman-bin (argument)
+>=media-video/ffmpeg-8.0.1 alsa
+# required by games-util/r2modman-bin-3.1.51::guru
+# required by r2modman-bin (argument)
+>=x11-libs/gtk+-3.24.51 cups
+# required by virtual/minizip-1.3.1::gentoo[-static-libs]
+# required by games-util/r2modman-bin-3.1.51::guru
+# required by r2modman-bin (argument)
+>=sys-libs/zlib-1.3.1-r1 minizip
+# required by dev-qt/qtwayland-5.15.18::gentoo
+>=dev-qt/qtgui-5.15.18-r1 egl
+# required by dev-qt/qttools-6.10.2::gentoo[widgets]
+# required by x11-misc/sddm-0.21.0_p20250502-r1::gentoo
+# required by @selected
+# required by @world (argument)
+dev-qt/qtbase opengl
+# required by media-video/pipewire-1.4.10::gentoo[jack-client]
+# required by media-video/pipewire (argument)
+>=media-sound/jack2-1.9.22 dbus
+# required by x11-libs/libXtst-1.2.5::gentoo
+# required by x11-libs/libXtst (argument)
+>=x11-libs/libXi-1.8.2 abi_x86_32
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=app-accessibility/at-spi2-core-2.56.5 abi_x86_32
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=x11-libs/gdk-pixbuf-2.42.12 abi_x86_32
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=x11-libs/pango-1.57.0 abi_x86_32
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=x11-libs/libXcomposite-0.4.7 abi_x86_32
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=x11-libs/libXcursor-1.2.3 abi_x86_32
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=x11-libs/libXdamage-1.1.7 abi_x86_32
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=gnome-base/librsvg-2.60.0 abi_x86_32
+# required by app-accessibility/at-spi2-core-2.56.5::gentoo
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=dev-libs/libxml2-2.15.2 abi_x86_32
+# required by x11-libs/pango-1.57.0::gentoo
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=dev-libs/fribidi-1.0.16 abi_x86_32
+# required by app-accessibility/at-spi2-core-2.56.5::gentoo
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=sys-apps/dbus-1.16.2 abi_x86_32
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by x11-libs/gtk+-2.24.33-r3::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.28-r1::gentoo
+>=dev-lang/rust-bin-1.93.1 abi_x86_32
+# required by net-misc/curl-8.18.0::gentoo[adns]
+# required by net-misc/curl (argument)
+>=net-dns/c-ares-1.34.6 abi_x86_32
+# required by net-misc/curl-8.18.0::gentoo[http2]
+# required by net-misc/curl (argument)
+>=net-libs/nghttp2-1.68.0 abi_x86_32
+# required by net-misc/curl-8.18.0::gentoo[http3]
+# required by net-misc/curl (argument)
+>=net-libs/nghttp3-1.9.0 abi_x86_32
+# required by net-misc/curl-8.18.0::gentoo[psl]
+# required by net-misc/curl (argument)
+>=net-libs/libpsl-0.21.5 abi_x86_32
+# required by net-libs/libpsl-0.21.5::gentoo[idn]
+# required by net-misc/curl-8.18.0::gentoo[psl]
+# required by net-misc/curl (argument)
+>=dev-libs/libunistring-1.3 abi_x86_32
+# required by net-libs/libpsl-0.21.5::gentoo[idn]
+# required by net-misc/curl-8.18.0::gentoo[psl]
+# required by net-misc/curl (argument)
+>=net-dns/libidn2-2.3.8 abi_x86_32
+# required by kde-apps/kdenlive-25.12.3::gentoo
+# required by kdenlive (argument)
+>=dev-qt/qtbase-6.10.2 -gles2-only
+# required by kde-apps/kdenlive-25.12.3::gentoo
+# required by kdenlive (argument)
+=media-video/ffmpeg-8.0.1 sdl X
+# required by kde-apps/kdenlive-25.12.3::gentoo
+# required by kdenlive (argument)
+>=media-libs/mlt-7.34.1-r1 qt6 sdl xml ffmpeg frei0r
+# required by media-libs/mlt-7.34.1-r1::gentoo[sdl]
+# required by kde-apps/kdenlive-25.12.3::gentoo
+# required by kdenlive (argument)
+>=media-libs/libsdl2-2.32.8 opengl X
+# required by media-plugins/frei0r-plugins-2.4.1-r1::gentoo
+# required by media-libs/mlt-7.34.1-r1::gentoo[frei0r]
+# required by kde-apps/kdenlive-25.12.3::gentoo
+# required by kdenlive (argument)
+>=media-libs/opencv-4.12.0-r1 contrib features2d contribdnn
+# required by dev-qt/qttools-6.10.2::gentoo
+# required by kde-frameworks/kglobalaccel-6.23.0::gentoo
+# required by kde-frameworks/kdeclarative-6.23.0::gentoo
+# required by kde-frameworks/purpose-6.23.0-r1::gentoo
+# required by kde-apps/kdenlive-25.12.3::gentoo
+# required by kdenlive (argument)
+# required by gui-wm/gamescope-3.16.22::gentoo[sdl]
+# required by gamescope (argument)
+>=media-libs/libsdl2-2.32.8 vulkan
+# required by dev-qt/qttools-6.10.3::gentoo[widgets]
+# required by x11-misc/sddm-0.21.0_p20250502-r1::gentoo
+# required by @selected
+# required by @world (argument)
+# required by x11-drivers/nvidia-drivers-595.71.05::gentoo[wayland]
+# required by @selected
+# required by @world (argument)
+>=gui-libs/egl-wayland2-1.0.1 abi_x86_32
+# required by net-misc/curl-8.19.0::gentoo[openssl,quic]
+# required by dev-lang/rust-bin-1.93.1::gentoo
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by dev-libs/hyprgraphics-0.5.1-r1::hyproverlay
+# required by gui-libs/hyprtoolkit-0.5.4::hyproverlay
+# required by gui-libs/hyprland-guiutils-0.2.1::hyproverlay
+# required by gui-wm/hyprland-9999::hyproverlay[guiutils]
+# required by @selected
+# required by @world (argument)
+>=net-libs/ngtcp2-1.22.0 abi_x86_32
+# required by app-crypt/swtpm-0.10.1::gentoo
+# required by app-emulation/libvirt-12.0.0::gentoo[qemu]
+# required by dev-python/libvirt-python-12.0.0::gentoo
+# required by app-emulation/virt-manager-5.1.0-r1::gentoo[python_single_target_python3_12]
+# required by @selected
+# required by @world (argument)
+>=net-libs/gnutls-3.8.12-r1 tools pkcs11
+# required by app-text/evince-48.1::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=app-text/poppler-26.03.0 cairo
+# required by net-misc/moonlight-6.1.0-r3::gentoo
+# required by net-misc/moonlight (argument)
+>=dev-qt/qtdeclarative-6.10.3-r1 svg
+# required by net-misc/moonlight-6.1.0-r3::gentoo
+# required by net-misc/moonlight (argument)
+>=media-libs/libsdl2-2.32.8 kms
+# required by net-misc/moonlight-6.1.0-r3::gentoo
+# required by net-misc/moonlight (argument)
+>=media-video/ffmpeg-8.1 vaapi
+# required by dev-qt/qtmultimedia-6.10.3::gentoo[ffmpeg]
+# required by games-emulation/rpcs3-0.0.40::guru
+# required by rpcs3 (argument)
+>=dev-qt/qtbase-6.10.3-r1 -eglfs
+# required by dev-qt/qtmultimedia-6.10.2::gentoo[ffmpeg]
+# required by games-emulation/rpcs3-0.0.40::guru
+# required by rpcs3 (argument)
+=dev-qt/qtbase-6.10.2 -eglfs
+# required by net-libs/webkit-gtk-2.50.5-r410::gentoo
+# required by gnome-extra/yelp-42.3::gentoo
+# required by media-sound/easyeffects-7.2.5::gentoo[doc]
+# required by easyeffects (argument)
+>=media-libs/harfbuzz-12.3.2 icu
+# required by media-libs/harfbuzz-12.3.2::gentoo[icu]
+# required by net-libs/webkit-gtk-2.50.5-r410::gentoo
+# required by gnome-extra/yelp-42.3::gentoo
+# required by media-sound/easyeffects-7.2.5::gentoo[doc]
+# required by easyeffects (argument)
+>=dev-libs/icu-78.3 abi_x86_32
+# required by app-misc/corectrl-1.5.2::guru
+# required by corectrl (argument)
+>=dev-qt/qtcharts-6.10.3 qml
+# required by app-misc/corectrl-1.5.2::guru
+# required by corectrl (argument)
+>=x11-libs/libdrm-2.4.131 video_cards_amdgpu
+# required by app-misc/corectrl-1.5.2::guru
+# required by corectrl (argument)
+=dev-qt/qtcharts-6.10.2 qml
+# required by games-util/lutris-0.5.22-r1::gentoo
+# required by lutris (argument)
+>=x11-libs/gdk-pixbuf-2.42.12 jpeg
+# required by x11-libs/gdk-pixbuf-2.42.12::gentoo[jpeg]
+# required by games-util/lutris-0.5.22-r1::gentoo
+# required by lutris (argument)
+>=media-libs/libjpeg-turbo-3.1.3 abi_x86_32
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by ProtonUp-Qt (argument)
+>=dev-python/pyside-6.11.1-r1 uitools
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by ProtonUp-Qt (argument)
+=dev-python/pyside-6.10.3 uitools
+# required by www-client/chromium-149.0.7827.114::gentoo
+# required by www-client/chromium (argument)
+>=dev-libs/libxml2-2.15.3 icu
+# required by kde-frameworks/qqc2-desktop-style-6.25.0::gentoo
+# required by media-video/vlc-4.0.0_pre20260515::gentoo[gui]
+# required by vlc (argument)
+>=kde-frameworks/sonnet-6.25.0 qml

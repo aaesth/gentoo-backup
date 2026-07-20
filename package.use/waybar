@@ -1,0 +1,5 @@
+ox11-libs/cairo X
+dev-cpp/cairomm X
+x11-libs/gtk+:3 X wayland
+dev-cpp/gtkmm:3.0 X wayland
+gui-apps/waybar tray pipewire network

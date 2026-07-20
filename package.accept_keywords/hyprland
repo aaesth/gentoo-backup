@@ -1,0 +1,45 @@
+gui-wm/hyprland -amd64
+dev-cpp/glaze -amd64
+dev-libs/hyprlang -amd64
+# required by gui-wm/hyprland-9999::hyproverlay
+# required by hyprland::hyproverlay (argument)
+=dev-libs/hyprland-protocols-0.7.0 ~amd64
+# required by gui-wm/hyprland-9999::hyproverlay[guiutils]
+# required by hyprland::hyproverlay (argument)
+=gui-libs/hyprland-guiutils-0.2.1 ~amd64
+# required by gui-libs/hyprtoolkit-0.5.3::hyproverlay
+# required by gui-libs/hyprland-guiutils-0.2.1::hyproverlay
+# required by gui-wm/hyprland-9999::hyproverlay[guiutils]
+# required by hyprland::hyproverlay (argument)
+=dev-util/hyprwayland-scanner-0.4.5-r1 ~amd64
+# required by gui-libs/hyprtoolkit-0.5.3::hyproverlay
+# required by gui-libs/hyprland-guiutils-0.2.1::hyproverlay
+# required by gui-wm/hyprland-9999::hyproverlay[guiutils]
+# required by hyprland::hyproverlay (argument)
+=dev-libs/hyprgraphics-0.5.0-r1 ~amd64
+# required by gui-wm/hyprland-9999::hyproverlay
+# required by hyprland::hyproverlay (argument)
+=dev-libs/hyprlang-9999 **
+# required by hyprland::hyproverlay (argument)
+=gui-wm/hyprland-9999 **
+# required by gui-libs/hyprtoolkit-0.5.3::hyproverlay
+# required by gui-libs/hyprland-guiutils-0.2.1::hyproverlay
+# required by gui-wm/hyprland-9999::hyproverlay[guiutils]
+# required by hyprland::hyproverlay (argument)
+=gui-libs/aquamarine-0.10.0 ~amd64
+# required by gui-wm/hyprland-9999::hyproverlay
+# required by hyprland::hyproverlay (argument)
+=dev-cpp/glaze-7.0.2 **
+# required by gui-wm/hyprland-9999::hyproverlay
+# required by hyprland::hyproverlay (argument)
+=gui-libs/hyprutils-0.11.1 ~amd64
+# required by gui-libs/hyprland-guiutils-0.2.1::hyproverlay
+# required by gui-wm/hyprland-9999::hyproverlay[guiutils]
+# required by hyprland::hyproverlay (argument)
+=gui-libs/hyprtoolkit-0.5.3 ~amd64
+# required by gui-wm/hyprland-9999::hyproverlay
+# required by hyprland::hyproverlay (argument)
+=gui-libs/hyprcursor-0.1.13-r1 ~amd64
+# required by gui-wm/hyprland-9999::hyproverlay
+# required by hyprland::hyproverlay (argument)
+=gui-libs/hyprwire-0.3.0 ~amd64

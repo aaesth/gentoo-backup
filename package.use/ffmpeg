@@ -1,0 +1,3 @@
+media-video/ffmpeg nvenc pipewire pulseaudio threads x256 opus x264 vulkan
+media-video/ffmpeg cuda
+media-video/ffmpeg nvdec

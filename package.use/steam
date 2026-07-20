@@ -1,0 +1,11 @@
+games-util/steam-launcher abi_x86_32
+sys-libs/libudev-compat abi_x86_32
+games-util/game-device-udev-rules elogind
+media-libs/freetype harfbuzz
+media-libs/libglvnd abi_x86_32
+x11-libs/cairo X
+x11-libs/libXtst abi_x86_32
+x11-libs/gtk+:2 abi_x86_32
+x11-libs/gtk+:2 abi_x86_32
+sys-apps/dbus abi_x86_32
+sys-apps/dbus abi_x86_32 X

@@ -1,0 +1,15 @@
+sys-kernel/installkernel dracut grub
+# required by sys-boot/os-prober-1.82::gentoo
+# required by os-prober (argument)
+>=sys-boot/grub-2.12-r12 mount
+# required by x11-base/xorg-server-21.1.21::gentoo
+# required by x11-drivers/xf86-input-libinput-1.5.0::gentoo
+# required by x11-base/xorg-drivers-21.1-r2::gentoo[input_devices_libinput]
+>=sys-auth/pambase-20251104-r1 elogind
+# required by media-sound/pulseaudio-daemon-17.0-r1::gentoo
+>=media-libs/libpulse-17.0 X
+# required by media-sound/pulseaudio-daemon-17.0-r1::gentoo
+# required by media-libs/libpulse-17.0::gentoo
+# required by www-client/librewolf-bin-148.0.2_p2::librewolf
+# required by librewolf-bin (argument)
+>=media-plugins/alsa-plugins-1.2.12 pulseaudio
